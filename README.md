@@ -8,14 +8,14 @@ Make sure to get access to PhysioNet prior to getting access to this AWS environ
 ## Daily operation
 1. Sign in to your IAM account at https://651111875052.signin.aws.amazon.com/console
 2. Switch to us-east-1
----
+
 If Instance is not already running... otherwise skip to step 6
 3. launch ec2 instance and ssh in: `ssh -L 9999:localhost:[JUPYTER PORT] ec2-user@[DNS NAME FROM INTERFACE]`
 4. launch JupyterLab using `jupyter lab --no-browser --port=[JUPYTER PORT]`
----
-If instance is running...
+
+If instance is already running...
 5. Connect either using port forwarding (not configured yet) or using actual address: `ssh -NL 9999:localhost:[JUPYTER PORT] ec2-user@[DNS NAME FROM INTERFACE]`
----
+
 6. Navigate to localhost:9999 on the local machine to use JupyterLab to compute 
 7. MAKE SURE TO SHUT DOWN THE INSTANCE WHEN DONE TO SAVE COSTS
 

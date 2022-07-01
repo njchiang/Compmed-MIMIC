@@ -36,6 +36,9 @@ Run these when setting up a new instance
 - Make sure account ID is associated with Physionet
 
 # Resources
+
+https://registry.opendata.aws/mimiciii/
+
 https://mimic.mit.edu/docs/gettingstarted/cloud/
 
 https://physionet.org/content/mimiciii/1.4/

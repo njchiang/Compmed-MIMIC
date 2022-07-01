@@ -26,7 +26,9 @@ Code for setup and analysis of MIMIC data in the Compmed MIMIC account
 - Make sure account ID is associated with Physionet
 - 
 
-#Resources
+# Resources
 https://mimic.mit.edu/docs/gettingstarted/cloud/
+
 https://physionet.org/content/mimiciii/1.4/
+
 https://aws.amazon.com/blogs/big-data/perform-biomedical-informatics-without-a-database-using-mimic-iii-data-and-amazon-athena/

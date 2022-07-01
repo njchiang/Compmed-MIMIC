@@ -10,7 +10,7 @@ Code for setup and analysis of MIMIC data in the Compmed MIMIC account
 2. Launch EC2 instance if not already connected
 3. launch JupyterLab using `jupyter lab --no-browser`
 4. Connect either using port forwarding or using actual address: `ssh -NL 9999:localhost:8888 ec2-user@[DNS NAME FROM INTERFACE]`
-5. Use JupyterLab to compute
+5. Navigate to localhost:9999 on the local machine to use JupyterLab to compute 
 6. MAKE SURE TO SHUT DOWN THE INSTANCE WHEN DONE
 
 ## EC2 Instance Setup
